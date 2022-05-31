@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragment.SettingsFragment">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Settings"
+        android:textColor="#7C7C7C"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-thin"
+        android:text="Profile"
+        android:textColor="#7C7C7C"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview2"
+        app:layout_constraintVertical_bias="0.07">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_marginTop="50dp"
+            app:cardBackgroundColor="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_marginTop="100dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_marginTop="150dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_marginTop="200dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0.1px"
+            android:layout_marginTop="250dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/gift"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/ic_account"
+            app:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/gifttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="17dp"
+            android:text="Account"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/targettext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="67dp"
+            android:text="Edit Profile"
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/arrowright"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="61dp"
+            app:srcCompat="@drawable/ic_arrow_right"
+            app:tint="@color/purple_500" />
+
+
+        <TextView
+            android:id="@+id/bantuantext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="117dp"
+            android:text="Change Password"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/arrowright1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="111dp"
+            app:srcCompat="@drawable/ic_arrow_right"
+            app:tint="@color/purple_500" />
+
+
+        <TextView
+            android:id="@+id/pesantext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="167dp"
+            android:text="Look Profile"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/arrowright2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/ic_arrow_right"
+            app:tint="@color/purple_500" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="211dp"
+            app:srcCompat="@drawable/ic_notifications"
+            app:tint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/settingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="217dp"
+            android:text="Notification"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/versitext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="267dp"
+            android:text="Turn on notification"
+            android:textColor="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
